@@ -50,7 +50,7 @@ setup(
         'scripts/custom_linters/tidy-wrapper.sh',
     ],
     install_requires=[
-        'docopt',
+        'docopt>=0.4.2',
         'pyyaml',
         'pathlib2',
         'termcolor',
